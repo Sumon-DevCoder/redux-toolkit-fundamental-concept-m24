@@ -89,6 +89,10 @@ Redux is a predictable state container for JavaScript applications. It helps you
 
 # How to use redux in react application
 
+# How to use redux in react application
+
 ###1. [Install vite](https://vitejs.dev/guide)
+
 ###2. [Install tailwind](https://tailwindcss.com/docs/guides/vite)
+
 ###3. [Install Redux Toolkit](https://redux-toolkit.js.org/tutorials/quick-start)
