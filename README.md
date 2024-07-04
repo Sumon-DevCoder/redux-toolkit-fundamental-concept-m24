@@ -87,6 +87,26 @@ Redux is a predictable state container for JavaScript applications. It helps you
 - **MobX**: More opinionated, potentially simpler for some use cases.
 - **Recoil**: Integrates more seamlessly with React.
 
+# Inner Working Of Redux
+![ Alt Text](https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif).
+
+# Redux Terminology
+
+## Action
+Actions are events triggered by the user. Each action has a corresponding reducer function that defines how the state should change in response to that action.
+
+## Dispatch
+Dispatching an action means sending the action object to the store. It triggers the corresponding reducer to update the state.
+
+## Payload
+Optional data attached to an action. It carries additional information needed to update the state.
+
+## Reducer
+A reducer is a pure function that takes the current state and an action as inputs and returns a new state. It defines how the application state changes in response to different actions.
+
+## Store
+The store holds the state of the application. It dispatches actions, maintains the state, and notifies subscribers about state changes.
+
 # How to use redux in react application
 
 # How to use redux in react application
@@ -96,3 +116,4 @@ Redux is a predictable state container for JavaScript applications. It helps you
 ###2. [Install tailwind](https://tailwindcss.com/docs/guides/vite)
 
 ###3. [Install Redux Toolkit](https://redux-toolkit.js.org/tutorials/quick-start)
+
